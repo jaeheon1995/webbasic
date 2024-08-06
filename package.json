@@ -1,0 +1,11 @@
+{
+  "name": "6.js_operator",
+  "version": "1.0.0",
+  "description": "clear",
+  "main": "npm init",
+  "scripts": {
+    "test": "orepator.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
