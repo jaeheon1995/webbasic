@@ -1,0 +1,114 @@
+    @font-face {
+        font-family: kakao;
+        src: url(./resource/font/KaKaoBold.ttf);
+    }
+
+    body {
+        font-family: kakao, sans-serif;
+        margin: 0;
+    }
+
+    #boxnews{
+        margin-right: 8px;
+        margin-left:40px;
+        display: grid;
+        height: 198px;
+        grid-template-columns: 650px 650px;
+        background-color: #56555533
+    }
+    .boxnews{
+        place-items: center;
+        width: 650px;
+        height: 198px;
+        border-radius: 24px;    
+    }
+
+    .title_box{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 26px;
+    }
+
+        .badge_box{
+        display: flex;
+    }
+
+    .badge_box .cate_box{
+        background-color: azure;
+        font-size: 14px;
+        display: flex;
+        align-items: left;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .dot{
+        display: flex;
+        margin-left: 400px;
+    }
+
+    .dot2{
+        display: flex;
+        margin-left: 400px;
+    }
+
+
+    .wrap_links{
+        margin-top: 12px;
+        margin-right: 20px;
+        margin-left:8px;
+        display: grid;
+        width: 428px;
+        height: 110px;
+        grid-template-columns: 430px 430px 430px;
+    }
+
+    .allnews{
+        background-color: #56555533;
+        margin-right: 8px;
+        margin-left: 30px;
+        display: flex;
+        width: 420px;
+        height: 110px;
+        border-radius: 24px;
+        align-items: center; 
+    }
+
+    .fill1{
+        background-color: #56555533;
+        margin-right: 8px;
+        margin-left: 30px;
+        display: flex;
+        width: 420px;
+        height: 110px;
+        border-radius: 24px; 
+        align-items: center;
+    }
+
+    .fill2{
+        background-color: #56555533;
+        margin-right: 8px;
+        margin-left: 40px;
+        display: flex;
+        width: 420px;
+        height: 110px;
+        border-radius: 24px; 
+        align-items: center;
+    }
+
+    .text_news{
+        margin-left: 230px;
+    }
+
+    .title_link{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .badge_box .date{
+        font-size:14px;
+        align-items: center;
+        align-items: left;
+        margin-top: 10px;
+    }
