@@ -1,0 +1,111 @@
+# Markdown
+
+### 마크다운이란?
+텍스트 기반의 마크업 언어로 읽고 쓰기 편하게 구성되어있다.  
+특수 기호와 문자를 활용하여 간단한 구조를 작성할 수 있음.  
+html과 호환됨.  
+  
+
+### 장단점
+장점    
+1,간단함    
+2,특별한 도구가 필요하지 않음   
+3,텍스트로 제작되기 때문에 용량 활용이 높음     
+
+단점    
+1,표준이 없음   
+2,모든 HTML요소를 대신하지 못함 
+
+### 헤더    
+- HTML Header와 동일한 것으로 문서의 제목을 나타냄    
+- h1~h6까지의 제목을 표현할 수 있음
+- '#'기호로 헤더를 표시
+# Header1(HTML - h1)
+## Header2(html - h2)
+### header3(html - h3)
+###### header6(html - h6)
+
+### 블록 인용
+- 인용구를 표현할 때 사용
+- '>' 기호를 사용하여 표현  
+
+> 첫번째 인용구 
+>> 두번째 인용구
+
+### 리스트
+- 나열된 항목을 나타낼때 사용
+- 순서가 존재하는 리스트(html ol요소), 순서가 존재하지 않는 리스트(html ul)
+- '1' 기호로 순서가 존재하지 않는 리스트를 표현
+- '*','+','-'기호로 순서가 존재하지 않는 리스트를 표현
+
+1. apple
+2. banana
+3. cacao
+
+- apple
+- banana
+- cacao
+
++ apple
++ banana
++ cacao
+
+* apple
+* banana
+* cacao
+
+### 코드
+- 코드를 작성하기 위한 영역을 지정
+- html code 요소와 동일
+-'```'기호로 표현
+```
+public static void main(String args[] args ){
+    system.
+}
+
+```
+
+- 시작하는 '```'뒤에 표현하고자하는 언어를 지정하면 문법 강조를 할 수 있음
+```java
+public static void main(String args[] args ){
+    system.
+}
+
+```
+### 구분선
+- html hr 요소와 동일한 것
+- 영역을 구분하고자 할 때 사용
+- '* * *', '***','*****','- - -','-----------------'기호로 표현가능
+
+***
+- - -
+
+### 링크
+- html a 요소와 동일
+- '[키워드][링크의 구분자]'
+- '[링크의 구분자]: url'
+
+[Naver][naverid]    
+[네이버][naverid]
+
+[naverid]:https://naver.com
+
+### 텍스트 강조
+- 기울임 꼴,굵은글씨,언더바,취소선을 표현
+- '*','_'기호로 기울임꼴 표현
+- '**','__' 기호로 굵은글씨 표현
+- '~~'기호로 취소선 표현
+내가 그린 *기린 그림*은 ~~잘 그린~~ **기린 그림**
+
+### 이미지
+- html img 요소와 동일
+- '![이미지 설명](이미지 경로)' 
+
+![강아지](https://search.pstatic.net/common?type=f&size=206x206&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200724_215%2F1595581349044jAHJA_JPEG%2F31716943718608376_1431937637.jpeg)
+
+### HTML 사용
+- 마크다운 대신 html사용가능
+<h2>html text</h2>
+<h2 style="color:red">html text</h2>
+
+
